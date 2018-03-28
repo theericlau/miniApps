@@ -5,6 +5,8 @@ console.log(up);
 
 const turnRed = function(e){
   console.log(e);
+
+  setInterval(()=> this.classList.toggle('red'), 1000);
 }
 
 up.addEventListener("click", turnRed);
