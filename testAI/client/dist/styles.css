@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
 ul li {
@@ -6,16 +7,27 @@ ul li {
   display: inline-block;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:grey;
+}
+
+a:visited {
+  color:black;
+}
 h1 {
-  font-family: "Roboto";
+  font-family: "Josefin Sans";
   font-size: 200%;
   text-align: center;
 }
 
 button {
-  font-family: "Roboto";
-  padding: 0;
-  border: none;
+  font-family: "Lato";
+  padding: 20px;
   background: none;
 }
 
@@ -30,6 +42,10 @@ li {
   padding-right: 10px;
 }
 
+img {
+  width: 10%;
+  height: auto;
+}
 .favorite-button {
   width: 3%;
 }
