@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:grey;
+}
+
+a:visited {
+  color:black;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 200%;
+  text-align: center;
+}
+
+li {
+  font-family: "Roboto";
+  width: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  width: 10%;
+  height: auto;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.test {
+  font-family: "Josefin Sans";
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.step {
+  flex-flow: column;
+}
+
+.title {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+}
+
+.split {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.testPic {
+    min-width: 15%;
+    height: 15%;
+}
