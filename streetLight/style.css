@@ -1,33 +1,63 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  background-color: #2dbccc;
+  border: 0;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
 #container {
   display: flex;
-  background-color: grey;
+  background-color: black;
   width: 100px;
   height: 300px;
   margin-top: 10px;
   justify-content: space-around;
   flex-flow: column;
   align-items: center;
+  margin: auto;
 }
 
 
 .circle {
-  width: 50px;
-  height: 50px;
-  background-color: pink;
-  margin-top: 10px;
-  border-radius: 50%
+  width: 75px;
+  height: 75px;
+  background-color: rgb(156, 88, 99);
+  border-radius: 50%;
+}
+
+.top {
+  background-color: rgba(255, 0, 0, 0.364);
+}
+
+
+.mid {
+  background-color: rgb(112, 112, 15);
+
+}
+
+.bot {
+  background-color: green;
 }
 
 .red {
   background-color: red;
 }
 
+.green {
+  background-color: rgb(7, 119, 7);
+}
+
 .yellow {
   background-color: yellow;
-
+}
+.text-box {
+  text-align: center;
 }
 
-.green {
-  background-color: green;
 
-}
