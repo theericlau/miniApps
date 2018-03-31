@@ -11,3 +11,12 @@ app.use(bodyParser.json());
 app.use('/', router);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
+
+app.get('*', (req, res) =>{
+  res.sendFile(path.join(__dirname, '../../client/dist/index.html'), function (err) {
+    if (err) {
+      console.log('im the error');
+      res.status(500).send(err)
+    }
+  })
+})
