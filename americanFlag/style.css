@@ -57,10 +57,11 @@ html {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .star {
-  background-color: white;
-  flex: 1;
-  border-radius: 50%
+  font-size: 2;
+  color: white;
+  border-color: none;
 }
