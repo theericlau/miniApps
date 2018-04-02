@@ -36,7 +36,6 @@ class Main extends Component {
 
   render() {
     console.log('i get in herefirst', this.state.data);
-    this.getApp();
     return (
       <div>
         <AppBar iconClassNameRight="muidocs-icon-navigation-expand-more">
