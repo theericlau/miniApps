@@ -1,0 +1,66 @@
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html {
+  background-color: tan;
+}
+
+#flag-container{
+  display: flex;
+  flex-flow: column;
+  height: 450px;
+  width: 55%;
+  background-color: white;
+}
+#upper {
+  display:flex;
+  height:55%;
+}
+
+#left{
+  width: 45%;
+}
+
+#right{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 55%;
+}
+
+#blue-box{
+  display:flex;
+  height: 100%;
+  background-color: rgb(32, 32, 163);
+  flex-flow: column;
+}
+
+#bot{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 45%;
+}
+
+
+.redStripe {
+  flex: 1;
+  background-color: rgb(158, 43, 43);
+}
+
+.whiteStripe {
+  flex: 1;
+}
+
+.star-row {
+  flex: 1;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.star {
+  background-color: white;
+  flex: 1;
+  border-radius: 50%
+}
