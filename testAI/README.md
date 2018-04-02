@@ -1,1 +1,0 @@
-# testAI Coding Challenge
