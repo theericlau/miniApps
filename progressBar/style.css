@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  text-align: center;
+}
+
+#bar-container {
+  width: 100%;
+  background-color: wheat;
+  border-style: solid;
+  border-width: 1px;
+  /* border-radius: 50px; */
+}
+
+#progress {
+  width: 1%;
+  height: 60px;
+  /* border-radius: 50px 50px 50px 50px; */
+  background-color: rgba(11, 108, 211, 0.453);
+}
