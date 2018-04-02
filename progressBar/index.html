@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progress Bar</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+  <h1>Progress Bar</h1>
+  <div id="bar-container">
+    <div id="progress"></div>
+  </div>
+  <div id="percentage"></div>
+  <button onclick="move()">Click Me</button>
+
+  <script>
+    const num = document.getElementById("percentage");
+    num.innerHTML = `0%`;
+
+    function move() {
+      const elem = document.getElementById("progress");
+      let width = 0;
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+        } else {
+          width++;
+          num.innerHTML = `${width}%`;
+          elem.style.width = width + '%';
+        }
+      }
+      const id = setInterval(frame, 50);
+    }
+  </script>
+</body>
+</html>
